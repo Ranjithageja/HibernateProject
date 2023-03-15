@@ -120,7 +120,7 @@ public class HibernateConfiguration {
     	private static BusMangement getBusManagement() {
     		BusMangement bus = new BusMangement();
     		System.out.println("Enter the StartingPoint ");
-    		bus.setEndingPoint(scan.next());
+    		bus.setStartingPoint(scan.next());
     		System.out.println("Enter the EndingPoint ");
     		bus.setEndingPoint(scan.next());
     		System.out.println("Enter the DriverName ");
